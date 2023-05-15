@@ -14,14 +14,29 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Functionality
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+It is a simple password manager tool build using Angular. Json-server is used for setting up sample API.
 
-## Running end-to-end tests
+Features: 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Add password: Add account to database with password encrypted.
 
-## Further help
+Get all passwords: Retrives all account with password encrypted.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Get single password: When searched with ID, it retrieves specified account with encrypted password.
+
+Update password: Updates account with decrypted password.
+
+Delete password: Deletes user account.
+
+Install JSON Server
+
+npm install -g json-server
+
+Start JSON Server
+
+json-server --watch db.json
+
+
+
