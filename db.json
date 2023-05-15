@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "passwords": [
+    {
+      "category": "work123",
+      "application": "gmail",
+      "userName": "rahul",
+      "encryptedPassword": "ZHVtbXk=",
+      "id": 3
+    },
+    {
+      "category": "school",
+      "application": "app",
+      "userName": "user",
+      "encryptedPassword": "bWFuZHlh",
+      "id": 4
+    }
+  ]
+}
